@@ -1,0 +1,64 @@
+Script started on Sunday 02 September 2018 12:36:41 AM IST
+]0;root@sivamurugan-PC: ~/deep-learning-models-master/DENSENET/201/201[01;32mroot@sivamurugan-PC[00m:[01;34m~/deep-learning-models-master/DENSENET/201/201[00m# python2 Features-Evaluate.py 
+/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+2018-09-02 00:36:59.868127: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: FMA
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input_1 (InputLayer)         (None, 7, 7, 1920)        0         
+_________________________________________________________________
+conv2d_1 (Conv2D)            (None, 7, 7, 64)          122880    
+_________________________________________________________________
+batch_normalization_1 (Batch (None, 7, 7, 64)          192       
+_________________________________________________________________
+activation_1 (Activation)    (None, 7, 7, 64)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 7, 7, 64)          0         
+_________________________________________________________________
+flatten_1 (Flatten)          (None, 3136)              0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 4)                 12548     
+=================================================================
+Total params: 135,620
+Trainable params: 135,492
+Non-trainable params: 128
+_________________________________________________________________
+None
+('CNV-6294785-2.jpeg', 0, 'CNV')
+('CNV-6875371-1.jpeg', 0, 'CNV')
+('CNV-6851127-1.jpeg', 0, 'CNV')
+('CNV-6294785-1.jpeg', 0, 'CNV')
+('CNV-6668596-1.jpeg', 0, 'CNV')
+('CNV-6652117-1.jpeg', 0, 'CNV')
+('CNV-8184974-1.jpeg', 0, 'CNV')
+('CNV-8598714-1.jpeg', 0, 'CNV')
+('DME-9721607-2.jpeg', 1, 'DME')
+('DME-9721607-1.jpeg', 1, 'DME')
+('DME-9925591-2.jpeg', 1, 'DME')
+('DME-9925591-1.jpeg', 1, 'DME')
+('DME-9603124-1.jpeg', 1, 'DME')
+('DME-9583225-1.jpeg', 1, 'DME')
+('DME-9655949-1.jpeg', 1, 'DME')
+('DME-9583225-2.jpeg', 1, 'DME')
+('DRUSEN-9894035-1.jpeg', 2, 'DRUSEN')
+('DRUSEN-9884539-1.jpeg', 2, 'DRUSEN')
+('DRUSEN-9800172-2.jpeg', 2, 'DRUSEN')
+('DRUSEN-9928043-1.jpeg', 2, 'DRUSEN')
+('DRUSEN-9837663-1.jpeg', 2, 'DRUSEN')
+('DRUSEN-9894035-2.jpeg', 2, 'DRUSEN')
+('DRUSEN-9861332-1.jpeg', 2, 'DRUSEN')
+('DRUSEN-9884539-2.jpeg', 2, 'DRUSEN')
+('NORMAL-5324912-1.jpeg', 3, 'NORMAL')
+('NORMAL-5246808-2.jpeg', 3, 'NORMAL')
+('NORMAL-9053621-1.jpeg', 3, 'NORMAL')
+('NORMAL-5171640-1.jpeg', 3, 'NORMAL')
+('NORMAL-5156112-1.jpeg', 3, 'NORMAL')
+('NORMAL-5193994-1.jpeg', 3, 'NORMAL')
+('NORMAL-4872585-1.jpeg', 3, 'NORMAL')
+('NORMAL-5246808-1.jpeg', 3, 'NORMAL')
+]0;root@sivamurugan-PC: ~/deep-learning-models-master/DENSENET/201/201[01;32mroot@sivamurugan-PC[00m:[01;34m~/deep-learning-models-master/DENSENET/201/201[00m# exit
+exit
+
+Script done on Sunday 02 September 2018 12:38:19 AM IST
